@@ -57,7 +57,4 @@ Environment-based configuration; validation at trust boundaries; parameterized S
 ## Framework selection
 Express is used to make HTTP and middleware concepts explicit. See `docs/FRAMEWORK_COMPARISON.md` for Express vs Fastify vs NestJS. No framework is universally best.
 
-## Verification
-The ZIP archive is CRC-checked. Runtime tests, dependency installation, and PostgreSQL integration were **not executed during packaging**. After setup, run `npm install`, `npm test`, and `npm run lint`; apply migrations against a local PostgreSQL instance. A valid ZIP does not prove application runtime correctness.
 
-See `docs/LEARNING_ROADMAP.md` and complete projects in sequence. MIT License.
