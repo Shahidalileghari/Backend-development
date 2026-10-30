@@ -4,7 +4,6 @@
 A fundamentals-to-advanced, industry-oriented backend engineering course. Express is the primary framework; the curriculum also compares Fastify and NestJS and introduces TypeScript, Redis, Docker, CI/CD, observability, and system design.
 
 ## GitHub details
-- Repository: `backend-development-mastery`
 - Description: Comprehensive JavaScript backend engineering course using Node.js and Express, with REST APIs, PostgreSQL, authentication, security, testing, Docker, caching, system design, and production-oriented projects.
 - Runtime: Node.js 22+
 - Database: PostgreSQL 15+
