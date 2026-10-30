@@ -1,0 +1,2 @@
+# Project 1 — Task management API
+Build multi-user task CRUD with registration/login, status transitions, pagination, filtering and ownership checks. Requirements: PostgreSQL schema, Express `/api/v1`, validation, password hashing, authorization, tests, OpenAPI and Docker. Acceptance: users can manage only their tasks; unauthorized/forbidden paths are tested; pagination is bounded; errors reveal no stack traces.

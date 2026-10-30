@@ -1,0 +1,1 @@
+export function errorHandler(err,req,res,_next) { const status=Number.isInteger(err.status)?err.status:500; if(status>=500) console.error({requestId:req.id,err}); res.status(status).json({error:{code:err.code||(status>=500?'INTERNAL_ERROR':'REQUEST_ERROR'),message:status>=500?'Internal server error':err.message,...(err.details?{details:err.details}:{})},requestId:req.id}); }

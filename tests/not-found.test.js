@@ -1,0 +1,2 @@
+import test from 'node:test'; import assert from 'node:assert/strict'; import { createServer } from 'node:http'; import { app } from '../src/app.js';
+test('unknown path returns structured 404',async t=>{ const s=createServer(app); await new Promise(r=>s.listen(0,r)); t.after(()=>new Promise(r=>s.close(r))); const response=await fetch(`http://127.0.0.1:${s.address().port}/missing`); assert.equal(response.status,404); const body=await response.json(); assert.equal(body.error.code,'ROUTE_NOT_FOUND'); assert.ok(body.requestId); });

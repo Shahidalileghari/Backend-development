@@ -1,0 +1,2 @@
+# Testing strategy
+Unit tests cover pure rules; integration tests exercise repositories against a disposable database; API tests verify HTTP contracts; contract tests check OpenAPI compatibility; E2E tests verify critical journeys. Test invalid input, unauthenticated and forbidden access, missing resources, conflicts, rate limits, dependency failures and concurrency. Included tests cover health and 404 paths only; expand coverage as features are implemented.

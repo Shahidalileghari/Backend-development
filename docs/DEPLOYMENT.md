@@ -1,0 +1,2 @@
+# Deployment readiness
+Use immutable artifacts, lock dependencies, inject secrets from a secret manager, run reviewed migrations as a release step, terminate TLS at trusted ingress, configure proxy trust carefully, set resource limits and probes, use managed PostgreSQL with restricted networking and tested backups, and provide logs/metrics/traces, rollback and incident runbooks. Review privacy and regulatory requirements for the domain.

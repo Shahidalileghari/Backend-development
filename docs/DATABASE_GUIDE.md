@@ -1,0 +1,2 @@
+# PostgreSQL guide
+Model entities and cardinalities; use PK/FK, NOT NULL, UNIQUE and CHECK constraints. Normalize transactional data, then denormalize only after measuring. Version schema changes as migrations. Use transactions for atomic multi-step writes. Parameterize SQL, apply least privilege, index measured access patterns, inspect slow queries with `EXPLAIN (ANALYZE, BUFFERS)`, paginate large datasets, and test backup restoration.
